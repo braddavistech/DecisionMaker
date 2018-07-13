@@ -1,4 +1,6 @@
 # DecisionMaker
-This is a program to put in 2 choices and have the application pick at random.
+This is a program in javascript, html and css that allows users to input 2 choices and pick one at random. 
+I will update it later to take more than 2 choices by asking user how many options they have and asking for those options individually. 
+I will also add some sort of an animation like a coin flip.
 
-Eventually, I will add in a questions that will ask how many options the user is choosing between and will allow a random selection from the choices. Created and tested through Atom and will continue to update here.
+Created and tested through Atom and will continue to update here.
