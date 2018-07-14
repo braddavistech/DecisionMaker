@@ -8,12 +8,15 @@ html {
     line-height: 1;
   }
 
-body {
+#background{
 	background-image:url("https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg");
    	no-repeat;
    	background-size: cover;
     	opacity:.8;
-  	font-family: "Helvetica Neue", Helvetica, Arial, sans-	serif;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-	serif;
   	}
 
 #title{
@@ -25,7 +28,7 @@ body {
       width:100vw;
       font-weight:bold;
       color: white;
-      -webkit-text-stroke:1vw black;
+      -webkit-text-stroke:.25vw black;
     }
 
 #base{
@@ -35,7 +38,7 @@ body {
         width:100vw;
         font-weight:bold;
 	color: white;
-	-webkit-text-stroke:1vw black;
+	-webkit-text-stroke:.25vw black;
     }
 
 
