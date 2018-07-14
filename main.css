@@ -7,7 +7,9 @@
 html {
     line-height: 1;
     background-image:url("https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg");
-    size: cover;
+    no-repeat;
+    background-size: cover;
+    opacity:.8;
   }
 
 body {
@@ -23,6 +25,8 @@ body {
       margin-bottom:0vw;
       width:100vw;
       font-weight:bold;
+      color: white;
+      -webkit-text-stroke:1vw black;
     }
 
 #base{
@@ -31,38 +35,23 @@ body {
         font-size:8vw;
         width:100vw;
         font-weight:bold;
+	color: white;
+	-webkit-text-stroke:1vw black;
     }
 
-#boxTop {
-  	color: black;
-    font-weight: bold;
-    text-align:center;
-  	font-size: 5vw;
-  	margin: 0vw;
-  	line-height: 1;
-	}
-
-#boxBottom {
-    color: black;
-    font-weight: bold;
-    text-align:center;
-    font-size: 12vw;
-    margin: 0vw;
-    line-height: 1;
-}
 
 .container {
- 	 	width: 80vw;
+    width: 80vw;
     text-align:center;
-  	max-width: 80vw;
+    max-width: 80vw;
     font-size: 5vw;
-  	background: white;
+    background: white;
     padding-top: .5vw;
     padding-bottom: .5vw;
     margin-left: 10vw;
     margin-right: 10vw;
-  	position: relative;
-  	overflow: hidden;
+    position: relative;
+    overflow: hidden;
     border-style:solid;
     border-width:1vw;
     border-color:black;
