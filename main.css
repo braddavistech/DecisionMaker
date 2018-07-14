@@ -29,7 +29,9 @@ html {
       	margin:0vw;
       	width:100vw;
       	font-weight:bold;
-      	color: black;
+      	color: white;
+	outline-color:black;
+	outline-width:10px;
       	z-index:2;
     	}
 
@@ -59,7 +61,7 @@ html {
 .container {
     	width: 80vw;
     	margin-left: 10vw;
-	margin-top: 14vw;
+	margin-top: 15.5vw;
     	background-color:white;
     	position: relative;
        	border-style:solid;
