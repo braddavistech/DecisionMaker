@@ -10,6 +10,9 @@ html {
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-	serif;
+	background: url('https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg');
+	no-repeat;
+	size:cover;
   	}
 
 #title{
@@ -21,7 +24,7 @@ body {
       width:100vw;
       font-weight:bold;
       color: white;
-      background: url('https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg');
+      
       -webkit-text-stroke:.3vw black;
     }
 
@@ -41,28 +44,28 @@ body {
     	text-align:center;
     	font-size: 12vw;
     	margin: 0vw;
-    	line-height: 1;}
+    	line-height: 1;
+	opacity:1;
+	}
 #boxTop{
 	color: black;
     	font-weight: bold;
     	text-align:center;
   	font-size: 5vw;
   	margin: 0vw;
-  	line-height: 1;}
+  	line-height: 1;
+	opacity:1;
+	}
 
 .container {
     width: 80vw;
     text-align:center;
     max-width: 80vw;
     background-color:white;
-    padding-top: .5vw;
-    padding-bottom: .5vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
     position: relative;
     overflow: hidden;
     border-style:solid;
     border-width:1vw;
     border-color:black;
-	-webkit-text-stroke:.025vw black;
+	 opacity:.9;
     }
