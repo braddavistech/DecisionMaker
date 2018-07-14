@@ -35,21 +35,21 @@ html {
     	}
 
 #boxBottom{
-	color: red;
+	color: black;
    	font-weight: bold;
     	text-align:center;
-    	font-size: 11vw;
+    	font-size: 12vw;
     	margin: 0vw;
     	line-height: 1;
-        padding-bottom:1vw;
+        padding-bottom:1.5vw;
 	
 	}
 #boxTop{
-	color: red;
+	color: black;
     	font-weight: bold;
     	text-align:center;
-  	font-size: 3vw;
-        padding-top:1vw;
+  	font-size: 5vw;
+        padding-top:1.5vw;
   	margin: 0vw;
   	line-height: 1;
 	}
