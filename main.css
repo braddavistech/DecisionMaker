@@ -22,8 +22,8 @@ html {
 	position:absolute;
 	top:0px;
       	text-align:center;
-	line-height:1;
-      	font-size:8vw;
+	line-height:.9;
+      	font-size:7vw;
       	padding-top:.5vw;
       	padding-bottom:0vw;
       	margin:0vw;
@@ -39,10 +39,11 @@ html {
    	font-weight: bold;
     	text-align:center;
     	font-size: 14vw;
-	padding-top:.5vw;
+	padding-top:-.5vw;
     	margin-top: 0vw;
     	line-height: 1;
         padding-bottom:2vw;
+	overflow:hidden;
 	}
 
 #boxTop{
