@@ -28,7 +28,7 @@ body {
       width:100vw;
       font-weight:bold;
       color: white;
-      -webkit-text-stroke:.25vw black;
+      -webkit-text-stroke:.1vw black;
     }
 
 #base{
@@ -38,7 +38,7 @@ body {
         width:100vw;
         font-weight:bold;
 	color: white;
-	-webkit-text-stroke:.25vw black;
+	-webkit-text-stroke:.1vw black;
     }
 
 
