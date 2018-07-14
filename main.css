@@ -1,35 +1,36 @@
 /*This is a simple css to manage the Decision Maker application created by Brad Davis.*/
 *{
-    padding:0;
-    margin:0;
-  }
-
-#picture{
-  	margin:0;
-	padding:0;
-	object-fit:contain;
-     }
-
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-	serif;
-	line-height: 1;
+    	padding:0;
+    	margin:0;
   	}
 
+html {
+	background-color: white;
+	}
+
+
+#picture{
+	position:fixed;
+	width:100vw;
+	height: auto;
+  	margin:0;
+	padding:0;
+	z-index:1;
+     }
+
 #title{
-      text-align:center;
-      font-size:8vw;
-      padding-top:1vw;
-      padding-bottom:1vw;
-      margin-bottom:0vw;
-      width:100vw;
-      font-weight:bold;
-      color: black;
-      
-      -webkit-text-stroke:.3vw black;
+      	text-align:center;
+      	font-size:8vw;
+      	padding-top:1vw;
+      	padding-bottom:1vw;
+      	margin-bottom:0vw;
+      	width:100vw;
+      	font-weight:bold;
+      	color: black;
+      	webkit-text-stroke:.3vw black;
     }
 
 #base{
-        padding-top:1vw;
         text-align:center;
         font-size:8vw;
         width:100vw;
@@ -39,7 +40,7 @@ body {
     }
 
 #boxBottom{
-	color: black;
+	color: red;
    	font-weight: bold;
     	text-align:center;
     	font-size: 12vw;
@@ -49,26 +50,24 @@ body {
 	
 	}
 #boxTop{
-	color: black;
+	color: blue
     	font-weight: bold;
     	text-align:center;
   	font-size: 5vw;
-        padding-top:.5vw;
+        padding-top:10;
   	margin: 0vw;
   	line-height: 1;
-	
 	}
 
 .container {
-    width: 80vw;
-    text-align:center;
-    max-width: 80vw;
-    margin-left: 10vw;
-    background-color:white;
-    position: relative;
-    overflow: hidden;
-    border-style:solid;
-    border-width:1vw;
-    border-color:black;
-	 opacity:.9;
+    	width: 80vw;
+    	margin-left: 10vw;
+    	background-color:white;
+    	position: relative;
+    	overflow: hidden;
+    	border-style:solid;
+   	border-width:1vw;
+    	border-color:black;
+	opacity:.9;
+	z-index:2;
     }
