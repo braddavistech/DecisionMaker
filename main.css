@@ -29,9 +29,9 @@ html {
       	margin:0vw;
       	width:100vw;
       	font-weight:bold;
-      	color: white;
-	-webkit-text-stroke:10px black; 
-	text-stroke: 10px black;
+      	color: black;
+	-webkit-text-stroke:5px black; 
+	text-stroke: 5px black;
       	z-index:2;
     	}
 
