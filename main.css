@@ -29,7 +29,7 @@ html {
       	margin:0vw;
       	width:100vw;
       	font-weight:bold;
-      	color: blue;
+      	color: black;
       	webkit-text-stroke:.3vw black;
 	z-index:2;
     	}
@@ -39,9 +39,10 @@ html {
    	font-weight: bold;
     	text-align:center;
     	font-size: 14vw;
+	padding-top:.5vw;
     	margin: 0vw;
     	line-height: 1;
-        padding-bottom:2vw;
+        padding-bottom:3vw;
 	
 	}
 #boxTop{
@@ -58,7 +59,7 @@ html {
 .container {
     	width: 80vw;
     	margin-left: 10vw;
-	margin-top: 19vw;
+	margin-top: 17vw;
     	background-color:white;
     	position: relative;
        	border-style:solid;
