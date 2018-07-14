@@ -8,13 +8,6 @@ html {
 	background-color: white;
 	}
 
-.upTop{
-	width:100vw;
-	text-align:center;
-	position:fixed;
-	z-index:3;
-	}
-
 #picture{
 	position:fixed;
 	width:100vw;
@@ -27,10 +20,11 @@ html {
 #title{
 	position:fixed;
       	text-align:center;
+	line-height:1;
       	font-size:8vw;
-      	padding-top:1vw;
-      	padding-bottom:1vw;
-      	margin-bottom:0vw;
+      	padding-top:.5vw;
+      	padding-bottom:.5vw;
+      	margin:0vw;
       	width:100vw;
       	font-weight:bold;
       	color: black;
@@ -61,6 +55,7 @@ html {
 .container {
     	width: 80vw;
     	margin-left: 10vw;
+	margin-top: 19vw;
     	background-color:white;
     	position: relative;
        	border-style:solid;
