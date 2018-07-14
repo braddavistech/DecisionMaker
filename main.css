@@ -40,11 +40,11 @@ html {
     	text-align:center;
     	font-size: 14vw;
 	padding-top:.5vw;
-    	margin: 0vw;
+    	margin-top: 0vw;
     	line-height: 1;
-        padding-bottom:3vw;
-	
+        padding-bottom:2vw;
 	}
+
 #boxTop{
 	color: black;
     	font-weight: bold;
@@ -52,7 +52,7 @@ html {
   	font-size: 5vw;
         padding-top:1.5vw;
 	padding-bottom:0vw;
-  	margin: 0vw;
+  	margin-top: 0vw;
   	line-height: 1;
 	}
 
