@@ -27,7 +27,7 @@ body {
       margin-bottom:0vw;
       width:100vw;
       font-weight:bold;
-      color: white;
+      color: red;
       -webkit-text-stroke:.1vw black;
     }
 
@@ -37,7 +37,7 @@ body {
         font-size:8vw;
         width:100vw;
         font-weight:bold;
-	color: white;
+	color: blue;
 	-webkit-text-stroke:.1vw black;
     }
 
@@ -47,7 +47,8 @@ body {
     text-align:center;
     max-width: 80vw;
     font-size: 5vw;
-    background: white;
+    background: green;
+	color:white;
     padding-top: .5vw;
     padding-bottom: .5vw;
     margin-left: 10vw;
