@@ -6,9 +6,6 @@
 
 html {
     line-height: 1;
-	background-image:url("https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg");
-   	no-repeat;
-   	background-size: cover;
      }
 
 body {
@@ -24,6 +21,7 @@ body {
       width:100vw;
       font-weight:bold;
       color: white;
+      background: url('https://cdn.rawgit.com/braddavistech/braddavistech.github.io/566571e7/images/RestaurantBackground.jpg');
       -webkit-text-stroke:.3vw black;
     }
 
