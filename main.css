@@ -30,8 +30,8 @@ html {
       	width:100vw;
       	font-weight:bold;
       	color: white;
-	outline-color:black;
-	outline-width:10px;
+	-webkit-text-stroke:10px black; 
+	text-stroke: 10px black;
       	z-index:2;
     	}
 
