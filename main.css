@@ -23,15 +23,14 @@ html {
 	top:0px;
       	text-align:center;
 	line-height:1;
-      	font-size:7vw;
+      	font-size:7.5vw;
       	padding-top:.5vw;
       	padding-bottom:0vw;
       	margin:0vw;
       	width:100vw;
       	font-weight:bold;
-      	color: white;
-      	webkit-text-stroke:1vw black;
-	z-index:2;
+      	color: black;
+      	z-index:2;
     	}
 
 #boxBottom{
