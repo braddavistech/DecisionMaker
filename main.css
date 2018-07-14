@@ -19,8 +19,8 @@ html {
      	}
 
 #title{
-	position:fixed;
-	top:0vw;
+	position:absolute;
+	top:0px;
       	text-align:center;
 	line-height:1;
       	font-size:8vw;
@@ -29,26 +29,26 @@ html {
       	margin:0vw;
       	width:100vw;
       	font-weight:bold;
-      	color: black;
+      	color: blue;
       	webkit-text-stroke:.3vw black;
 	z-index:2;
     	}
 
 #boxBottom{
-	color: black;
+	color: red;
    	font-weight: bold;
     	text-align:center;
-    	font-size: 12vw;
+    	font-size: 11vw;
     	margin: 0vw;
     	line-height: 1;
         padding-bottom:1vw;
 	
 	}
 #boxTop{
-	color: black;
+	color: red;
     	font-weight: bold;
     	text-align:center;
-  	font-size: 5vw;
+  	font-size: 3vw;
         padding-top:1vw;
   	margin: 0vw;
   	line-height: 1;
