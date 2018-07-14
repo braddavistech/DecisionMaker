@@ -11,6 +11,7 @@ html {
 #picture{
 	position:fixed;
 	width:100vw;
+	top:0vw;
 	height: auto;
   	margin:0;
 	padding:0;
@@ -19,6 +20,7 @@ html {
 
 #title{
 	position:fixed;
+	top:0vw;
       	text-align:center;
 	line-height:1;
       	font-size:8vw;
@@ -39,15 +41,15 @@ html {
     	font-size: 12vw;
     	margin: 0vw;
     	line-height: 1;
-        padding-bottom:3vw;
+        padding-bottom:1vw;
 	
 	}
 #boxTop{
 	color: black;
     	font-weight: bold;
     	text-align:center;
-  	font-size: 8vw;
-        padding-top:2vw;
+  	font-size: 5vw;
+        padding-top:1vw;
   	margin: 0vw;
   	line-height: 1;
 	}
