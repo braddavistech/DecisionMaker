@@ -22,7 +22,7 @@ html {
 	position:absolute;
 	top:0px;
       	text-align:center;
-	line-height:.9;
+	line-height:1;
       	font-size:7vw;
       	padding-top:.5vw;
       	padding-bottom:0vw;
@@ -30,7 +30,7 @@ html {
       	width:100vw;
       	font-weight:bold;
       	color: white;
-      	webkit-text-stroke:.3vw black;
+      	webkit-text-stroke:1vw black;
 	z-index:2;
     	}
 
@@ -60,7 +60,7 @@ html {
 .container {
     	width: 80vw;
     	margin-left: 10vw;
-	margin-top: 15vw;
+	margin-top: 14vw;
     	background-color:white;
     	position: relative;
        	border-style:solid;
