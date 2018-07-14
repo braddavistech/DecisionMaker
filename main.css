@@ -38,17 +38,6 @@ html {
 	z-index:2;
     	}
 
-#base{
-	position:fixed;
-        text-align:center;
-        font-size:8vw;
-        width:100vw;
-        font-weight:bold;
-	color: black;
-	-webkit-text-stroke:.3vw black;
-    	z-index:2;
-	}
-
 #boxBottom{
 	color: black;
    	font-weight: bold;
@@ -63,7 +52,7 @@ html {
 	color: black;
     	font-weight: bold;
     	text-align:center;
-  	font-size: 5vw;
+  	font-size: 8vw;
         padding-top:2vw;
   	margin: 0vw;
   	line-height: 1;
@@ -74,8 +63,7 @@ html {
     	margin-left: 10vw;
     	background-color:white;
     	position: relative;
-    	overflow: hidden;
-    	border-style:solid;
+       	border-style:solid;
    	border-width:1vw;
     	border-color:black;
 	opacity:.9;
