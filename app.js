@@ -11,4 +11,5 @@ while (myOptions[numberArray] !== "DONE") {//This is the start of a while loop t
     }
 
 var diceRoll = Math.floor(Math.random()* numberArray); //Creates random selection for array assignment.
+document.write('<p id="boxTop">THIS TIME THE WINNER IS:');
 document.write('<p id="boxBottom">' + myOptions[diceRoll]);
