@@ -5,7 +5,7 @@ var myOptions = [answers.toUpperCase()]; //This will make all answers upper case
 
 while (myOptions[numberArray] !== "DONE") {//This is the start of a while loop to continue to add options until user enters done.
     itemNumber+=1;
-    var answers=prompt('What is option ' + itemNumber        + ' ? If done, please enter Done.');
+    var answers=prompt('What is option ' + itemNumber        + '? If done, please enter Done.');
     myOptions.push (answers.toUpperCase());//Pushes answer into array.
     numberArray+=1;
     }
